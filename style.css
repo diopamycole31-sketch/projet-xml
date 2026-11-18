@@ -1,0 +1,24 @@
+:root {
+  --bleu: #1e3a8a;
+  --vert: #16a34a;
+}
+
+body { font-family: Arial; background: #f4f4f4; padding: 20px; }
+h1, h2 { color: var(--bleu); }
+h2 { border-left: 5px solid var(--bleu); padding-left: 10px; }
+table { border-collapse: collapse; width: 100%; background: white; margin-bottom: 30px; }
+th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+th { background: var(--bleu); color: white; }
+.badge { padding: 5px 12px; border-radius: 20px; color: white; font-weight: bold; }
+.reussite { background: var(--vert); }
+.echec { background: red; }
+
+/* ETAPE 9 : LE MAJOR */
+.major td {
+  background: var(--vert);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid var(--bleu);
+}
+.major td a { color: yellow; }
